@@ -1,0 +1,17 @@
+@import ➥ url('https://fonts.googleapis.com/css?family=Baloo+Da|Roboto');
+
+body {
+  background: #5F1C1C;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.button-main {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
