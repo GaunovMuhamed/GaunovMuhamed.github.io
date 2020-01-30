@@ -1,6 +1,5 @@
 .background {
     background: linear-gradient(50deg, #ffd89b, #19547b);
-    /*background: linear-gradient(50deg, #ffd89b, #19547b); best*/
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -23,7 +22,7 @@
 }
 
 .avatar {
-    background-image: url("/images/photo.jpg");
+    background-image: url("/GaunovMuhamed.github.io/images/photo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -37,13 +36,13 @@
 .subtext {
     width: 100%;
     text-align: center;
+    /*font-family: URW Chancery L, cursive;*/
     color: #ffffff;
-    font-family: URW Chancery L, cursive;
     font-size: 40px;
 }
 
 .subtext {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .header-subtext {
@@ -57,12 +56,15 @@
     width: 60%;
 }
 
-.techs-and-works {
+.techs {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 90%;
+    padding: 50px;
+    background-color:   #ffebcc80;
+    border-radius: 20px;
 }
 
 .text-item {
@@ -72,20 +74,21 @@
 }
 
 .tech-item {
-    margin-top: 40px;
+    margin-top: 20px;
+    border-radius: 20%;
 }
 
 .tech-item:hover {
-    background-color: #5eecff;
-    border-radius: 16%;
     transition: .5s ease-out;
+    background-color: #19547b80;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .html-img,
 .css-img,
 .js-img,
 .jq-img {
-    background-image: url("/images/html.png");
+    background-image: url("/GaunovMuhamed.github.io/images/html.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -94,20 +97,19 @@
 }
 
 .css-img {
-    background-image: url("/images/css.png");
+    background-image: url("/GaunovMuhamed.github.io/images/css.png");
 }
 
 .js-img {
-    background-image: url("/images/js.png");
+    background-image: url("/GaunovMuhamed.github.io/images/js.png");
 }
 
 .jq-img {
-    background-image: url("/images/jquery.png");
+    background-image: url("/GaunovMuhamed.github.io/images/jquery.png");
 }
 
 .works {
-    padding-top: 40px;
-    margin: 0 auto;
+    margin: 10% auto;
 }
 
 .projects {
@@ -119,7 +121,7 @@
 .first-project,
 .second-project,
 .third-project {
-    background-image: url("/images/project1.png");
+    background-image: url("/GaunovMuhamed.github.io/images/project1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -129,16 +131,15 @@
 }
 
 .second-project {
-    background-image: url("/images/project2.png");
+    background-image: url("/GaunovMuhamed.github.io/images/project2.png");
 }
 
 .third-project {
-    background-image: url("/images/project3.png");
+    background-image: url("/GaunovMuhamed.github.io/images/project3.png");
 }
 
 .works-text {
     padding-top: 10px;
-    font-family: URW Chancery L, cursive;
     font-size: 20px;
     text-align: center;
     color: white;
@@ -151,27 +152,18 @@
 }
 
 .footer {
-    padding-top: 150px;
-    margin: 0 auto;
-    width: 60%;
-    height: 100px;
+    margin: 10% auto 0 0;
+    width: 100%;
+    background: #19547bcc;
 }
 
-.first-footer-part {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-}
-
-.contacts,
 .bottom-contacts {
     text-align: center;
     color: #ffffff;
-    font-family: URW Chancery L, cursive;
     font-size: 30px;
 }
 
-.second-footer-part {
+.inner-footer{
     width: 60%;
     margin: 0 auto;
     display: flex;
@@ -180,7 +172,19 @@
 }
 
 .bottom-contacts {
-    padding-top: 20px;
+    margin: 20px;
     font-size: 20px;
     text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    .project-holder {
+        padding-top: 50px;
+        width: 100vw;
+        height: 100px;
+    }
+
+    .first-footer-part{
+        width:100%;
+    }
 }
