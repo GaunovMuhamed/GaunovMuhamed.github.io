@@ -151,7 +151,7 @@
 }
 
 .project-holder {
-    padding-top: 50px;
+    padding-bottom: 50px;
     width: 400px;
     height: 200px;
 }
@@ -179,10 +179,14 @@
 }
 
 @media (max-width: 750px) {
+    .techs{
+        width:50%;
+    }
+
     .project-holder {
-        padding-top: 50px;
         width: 100vw;
-        height: 100%;
+        height: 100px;
+        padding-bottom: 100px;
     }
 
     .avatar{
@@ -190,7 +194,11 @@
         width: 130px;
     }
 
-    .main, .footer{
+    .main{
+        width: 100%;
+    }
+
+    .footer{
         width: 100%;
     }
 
