@@ -22,7 +22,7 @@
 }
 
 .avatar {
-    background-image: url("/GaunovMuhamed.github.io/images/photo.jpg");
+    background-image: url("../images/photo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -88,7 +88,7 @@
 .css-img,
 .js-img,
 .jq-img {
-    background-image: url("/GaunovMuhamed.github.io/images/html.png");
+    background-image: url("../images/html.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -97,15 +97,15 @@
 }
 
 .css-img {
-    background-image: url("/GaunovMuhamed.github.io/images/css.png");
+    background-image: url("../images/css.png");
 }
 
 .js-img {
-    background-image: url("/GaunovMuhamed.github.io/images/js.png");
+    background-image: url("../images/js.png");
 }
 
 .jq-img {
-    background-image: url("/GaunovMuhamed.github.io/images/jquery.png");
+    background-image: url("../images/jquery.png");
 }
 
 .works {
@@ -121,7 +121,7 @@
 .first-project,
 .second-project,
 .third-project {
-    background-image: url("/GaunovMuhamed.github.io/images/project1.png");
+    background-image: url("../images/project1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -130,12 +130,18 @@
     border-radius: 10%;
 }
 
+.first-project:hover,
+.second-project:hover,
+.third-project:hover{
+    /*добавить анимацию*/
+}
+
 .second-project {
-    background-image: url("/GaunovMuhamed.github.io/images/project2.png");
+    background-image: url("../images/project2.png");
 }
 
 .third-project {
-    background-image: url("/GaunovMuhamed.github.io/images/project3.png");
+    background-image: url("../images/project3.png");
 }
 
 .works-text {
@@ -160,7 +166,9 @@
 .bottom-contacts {
     text-align: center;
     color: #ffffff;
-    font-size: 30px;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .inner-footer{
@@ -171,17 +179,15 @@
     justify-content: space-around;
 }
 
-.bottom-contacts {
-    margin: 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
 @media (max-width: 750px) {
     .project-holder {
         padding-top: 50px;
         width: 100vw;
         height: 100px;
+    }
+
+    .main{
+        width: 100%;
     }
 
     .first-footer-part{
