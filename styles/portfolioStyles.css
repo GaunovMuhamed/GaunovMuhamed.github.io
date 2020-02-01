@@ -3,7 +3,7 @@
     background-position: center;
     background-size: cover;
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 
 .header {
@@ -36,7 +36,6 @@
 .subtext {
     width: 100%;
     text-align: center;
-    /*font-family: URW Chancery L, cursive;*/
     color: #ffffff;
     font-size: 40px;
 }
@@ -183,14 +182,27 @@
     .project-holder {
         padding-top: 50px;
         width: 100vw;
-        height: 100px;
+        height: 100%;
     }
 
-    .main{
+    .avatar{
+        height: 130px;
+        width: 130px;
+    }
+
+    .main, .footer{
         width: 100%;
     }
 
     .first-footer-part{
         width:100%;
+    }
+
+    .header-text{
+        font-size: 20px;
+    }
+
+    .subtext{
+        font-size: 5px;
     }
 }
