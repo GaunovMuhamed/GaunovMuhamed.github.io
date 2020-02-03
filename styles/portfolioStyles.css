@@ -135,7 +135,8 @@
 
 .first-project:hover,
 .second-project:hover,
-.third-project:hover {
+.third-project:hover,
+.fourth-project {
     /*добавить анимацию*/
 }
 
