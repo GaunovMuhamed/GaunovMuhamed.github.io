@@ -62,7 +62,7 @@
     justify-content: space-around;
     width: 90%;
     padding: 50px;
-    background-color:   #ffebcc80;
+    background-color: #ffebcc80;
     border-radius: 20px;
 }
 
@@ -81,7 +81,7 @@
 .tech-item:hover {
     transition: .5s ease-out;
     background-color: #19547b80;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .html-img,
@@ -121,7 +121,8 @@
 
 .first-project,
 .second-project,
-.third-project {
+.third-project,
+.fourth-project {
     background-image: url("../images/project1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -134,7 +135,7 @@
 
 .first-project:hover,
 .second-project:hover,
-.third-project:hover{
+.third-project:hover {
     /*добавить анимацию*/
 }
 
@@ -144,6 +145,10 @@
 
 .third-project {
     background-image: url("../images/project3.png");
+}
+
+.fourth-project {
+    background-image: url("../images/project4.png");
 }
 
 .works-text {
@@ -173,7 +178,7 @@
     text-decoration: none;
 }
 
-.inner-footer{
+.inner-footer {
     width: 60%;
     margin: 0 auto;
     display: flex;
@@ -182,8 +187,8 @@
 }
 
 @media (max-width: 750px) {
-    .techs{
-        width:50%;
+    .techs {
+        width: 50%;
     }
 
     .project-holder {
@@ -192,21 +197,21 @@
         padding-bottom: 100px;
     }
 
-    .avatar{
+    .avatar {
         height: 130px;
         width: 130px;
     }
 
-    .main{
+    .main {
         width: 100%;
     }
 
-    .footer{
+    .footer {
         width: 100%;
     }
 
-    .first-footer-part{
-        width:100%;
+    .first-footer-part {
+        width: 100%;
     }
-    
+
 }
