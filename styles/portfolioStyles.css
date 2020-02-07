@@ -30,6 +30,7 @@
     height: 230px;
     width: 230px;
     border-radius: 50%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .header-text,
@@ -52,7 +53,7 @@
 .main {
     padding-top: 40px;
     margin: 0 auto;
-    width: 60%;
+    width: 100%;
 }
 
 .techs {
@@ -60,10 +61,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 90%;
-    padding: 50px;
-    background-color: #ffebcc80;
-    border-radius: 20px;
+    width: 80%;
+    padding: 30px;
 }
 
 .text-item {
@@ -73,15 +72,15 @@
 }
 
 .tech-item {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 20%;
-    height: 10%;
+    padding: 20px;
 }
 
 .tech-item:hover {
     transition: .5s ease-out;
     background-color: #19547b80;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
 }
 
 .html-img,
@@ -125,19 +124,21 @@
 .fourth-project {
     background-image: url("../images/project1.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    /*background-position: center;*/
+    background-size: cover;
     width: 100%;
     height: 100%;
-    border-radius: 10%;
+    /*border-radius: 10%;*/
     margin-top: 40px;
+    border-radius: 2%;
 }
 
 .first-project:hover,
 .second-project:hover,
 .third-project:hover,
-.fourth-project {
-    /*добавить анимацию*/
+.fourth-project:hover {
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
+    transition: .5s ease-out;
 }
 
 .second-project {
@@ -185,6 +186,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.techs-container{
+    background: #ffebcc80;
+    width: 100vw;
+    margin: 0 auto;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 14px 28px rgba(0, 0, 0, 0.22);*/
 }
 
 @media (max-width: 750px) {
